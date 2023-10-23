@@ -6,6 +6,8 @@
     <title>Club Registration</title>
     <link rel="stylesheet" href="eventreg.css" />
     <style>
+      
+      
       .container {
           display: flex;
           flex-direction: column;
@@ -17,19 +19,22 @@
   <section class="container">
     <img src="https://tse3.mm.bing.net/th?id=OIP.JnMBsSXw0SsRrpGEh3HmDgHaDl&pid=Api&P=0&h=180" alt="Club Registration Image">
     <header>Club Registration</header>
-    <form class="form" netlify>
-        <div class="input-box">
-            <label>Full Name<input type="text" placeholder="Enter Full Name" required></label>
+    <form action="#" class="form" netlify>
+      <div class="input-box">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Full Name" required>
         </div>
         <div class="input-box">
-            <label>Registration Number <input type="text" placeholder="Enter Registration number" required> </label>
+          <label>Registration Number</label>
+          <input type="text" placeholder="Enter Registration number" required>
         </div>
-        <div class="column">
-            <div class="input-box">
-                <label>Phone Number</label>
-                <input type="number" placeholder="Enter phone number" required>
-            </div>    
+
+      <div class="column">
         <div class="input-box">
+          <label>Phone Number</label>
+          <input type="number" placeholder="Enter phone number" required>
+
+          <div class="input-box">
             <label>Select club *</label>
             <div class="dropdown">
                 <div class="select">
@@ -50,7 +55,7 @@
                     <li>Nature and Trekking Club</li>
                 </ul>
             </div>
-        </div>  
+          </div>  
 
         <button type="submit"> Register </button>
     </form>
